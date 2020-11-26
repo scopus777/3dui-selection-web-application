@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Help Snapshot testing Help snapshot 1`] = `
+<div
+  className="container"
+>
+  <h3>
+    Sorting Algorithm
+  </h3>
+  <p>
+    Beforehand all techniques have been measured under certain conditions. These performance criteria can be set to suit your applications needs.
+  </p>
+  <p>
+    The measurements include:
+  </p>
+  <ul>
+    <li>
+      <b>
+        time
+      </b>
+      : How long the user needed to complete the task
+    </li>
+    <li>
+      <b>
+        precision
+      </b>
+      : How precise the user was in completing the task
+    </li>
+  </ul>
+  <p>
+    A filter is applied before hand that filters out or only includes the selected properties you choose. After the filter is complete all the remaining techniques are sorted based on the measurements that are recorded. These records are not all inclusive for every possible criteria. Therefore the nearest best solution is selected. To select this nearest best solution, weights are applied to each of the measurements how well they apply to your situation. For each misfitting criteria the weight is reduced. If at the end for a measurement type the weights are equal on multiple measurements then the value measured is averaged between them. The measurements are also normalized and used as a percentage of how good that measurement is. This percentage is 100% (Absolute best performance) to 0% (Absolute worst performance). At the end for every technique the normalized measurement for every type is multiplied by it's weight and the average is taken of all those values.
+  </p>
+  <h3>
+    Characteristics of an Interaction Technique
+  </h3>
+  <h5>
+    Metaphor:
+  </h5>
+  <p>
+    Most of the existing techniques are designed with a real-world metaphor in mind. This supports the learnability of a new technique. The first distinction is between grasping, pointing and hybrid metaphors.
+  </p>
+  <ul>
+    <li>
+      Grasping:
+      <p>
+        Grasping describes the most natural way of interacting in three-dimensional space. It can be divided into hand-based and finger-based grasping.
+        <ul>
+          <li>
+            Hand-based:
+            <p>
+              Hand-based techniques only use the position and/or orientation of the hand to enable the user to interact with virtual objects
+            </p>
+          </li>
+          <li>
+            Finger-based:
+            <p>
+              Finger-based techniques transfer the movement of every finger into the virtual world offering a more precise way of interaction. The downsides are the increased implementation effort and the need for a tracking system which is capable of tracking the fingers.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+    <li>
+      Pointing:
+      <p>
+        With the pointing metaphor the user can interact with virtual objects by pointing at them. A high number of selection techniques use this type of interaction to select objects even at greater distances. It can be divided in vector-based and volume-based pointing.
+        <ul>
+          <li>
+            Vector-based:
+            <p>
+              Vector-based pointing uses a ray to indicate the target object. These techniques can also be used to position an object this is however a difficult way to manipulate and object. However there are approaches to solve this problem.
+            </p>
+          </li>
+          <li>
+            Volume-based:
+            <p>
+              Volume based techniques on the other hand use a volume to interact with objects instead of a ray. This improves the selection of smaller objects but can also create ambiguity because multiple objects can fall into the selection volume.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+    <li>
+      Hybrid:
+      <p>
+        Some techniques use a combination of the other Metaphors.
+      </p>
+    </li>
+  </ul>
+  <h5>
+    Task:
+  </h5>
+  <p>
+    Tasks are split into 4 basic tasks: selection, positioning, rotation and scaling. Most of the existing techniques support multiple tasks.
+  </p>
+  <ul>
+    <li>
+      Selection:
+      <p>
+        Selection is the task of taking or identifying a particular object. Normally this task is followed by one of the other basic tasks.
+      </p>
+    </li>
+    <li>
+      Positioning:
+      <p>
+        Positioning enables the user to change the position of an object in three-dimensional space.
+      </p>
+    </li>
+    <li>
+      Rotation:
+      <p>
+        Rotation is the task of changing the orientation of an object.
+      </p>
+    </li>
+    <li>
+      Scale:
+      <p>
+        Enables the user to change the size of an object.
+      </p>
+    </li>
+  </ul>
+  <h5>
+    Bimanual:
+  </h5>
+  <p>
+    Using both hands for the interaction in three-dimensional space can lead to significant advantages when it comes to performance and usability in comparison to single-handed interaction when they are based on our daily experience with tow-handed tasks. Bimanual interaction can be divided into four classes: symmetric-synchronous, symmetric-asynchronous, asymmetric-synchronous and asymmetric-asynchronous. Symmetric means that both hands perform identical movements at the same time whereas in asymmetric interaction both hands perform different movements.  A technique is synchronous if both hands do their movements at the same time and asynchronous if not.
+  </p>
+  <h5>
+    Degrees of Freedom:
+  </h5>
+  <p>
+    Considering a coordinate system in three-dimensional space, the degrees of freedom(DoF) of an interaction technique describe on which axis the selection/manipulation tool can be moved around which axis the tool can be rotated. The selection/manipulation tool can be displayed differently in dependence of the used technique. Some techniques can get more powerful or usable by adding additional DoFs. Therefore there is a distinction between minimum DoFs or maximum DoFs. This helps to identify the minimum requirements for an input device.
+  </p>
+  <h5>
+    Constraints:
+  </h5>
+  <p>
+    Constraints are a way to implement restrictions in a virtual environment which has to be satisfied during interaction. Normally they are implemented to reduce the action space of a user. This simplifies the interaction and can lead to a higher precision.
+  </p>
+  <ul>
+    <li>
+      Snap-to-axis:
+      <p>
+        can either be applied when rotation an object to reduce the rotation to one or two axis or when moving an object.
+      </p>
+    </li>
+    <li>
+      Snap-to-object:
+      <p>
+        can be used when positioning an object or in selection tasks.
+      </p>
+    </li>
+  </ul>
+  <h5>
+    Control Display Ratio:
+  </h5>
+  <p>
+    The Control-Display Ratio (CD-Ratio) describes whether an interaction technique uses a 1-to-1 mapping of the position and orientation of the input device to the selection/manipulation tool. Decreasing the CD-Ratio can improve the expressiveness of a technique for example by increasing the reach to interact with distant objects. Non-isomorphic rotation can increase the performacne of a interaction technique. On the other Hand, increasing the CD-Ratio can lead to more precise movements. Considering the CD-Ratio of the selection/manipulation tool we distinguish between the following approaches: isomorph, target-oriented, manual-switching and velocity-oriented.
+  </p>
+  <ul>
+    <li>
+      Isomorph:
+      <p>
+        do not apply any changes to the mapping of the real movements to the virtual selection/manipulation tool to permit a more precise control of the virtual tool and increases the fidelity of the technique
+      </p>
+    </li>
+    <li>
+      Target-oriented:
+      <p>
+        techniques reduce the CD-gain when the selection/manipulation tool enters a specific area or comes close to a target.
+      </p>
+    </li>
+    <li>
+      Manual-switching:
+      <p>
+        enables the user to manually switch between an absolute or relative mapping. With this the CD-Ratio can be adopted when necessary but this induces an overhead because of the need to press an additional button.
+      </p>
+    </li>
+    <li>
+      Velocity-oriented:
+      <p>
+        adopts the CD-Ration in dependence of the current phase. Aimed movements are dividable into two phases. The first phase consists of Large and fast movement towards the target. The second phase consists of smaller and precise movements to compensate for over- and undershooting
+      </p>
+    </li>
+    <li>
+      Area-oriented:
+      <p>
+        adopt the CD-Ratio in dependence of the distance of the selection tool to the user.
+      </p>
+    </li>
+  </ul>
+  <p>
+    An isomorph CD-Ratio of the selection/manipulation tool doesn't mean that the effective CD-Ratio is isomorph. CD-Ratio Target refers to the selection or manipulation point of a technique. The target CD-Ratio can either be isomorph or non-isomorph. A non-isomorphic target CD-Ratio can lower the amount of needed movements but can also lead to an increased effort for precise movements.
+  </p>
+  <h5>
+    Spatial Compliance:
+  </h5>
+  <p>
+    Related to the CD-Ratio is the spatial compliance. It describes whether the real movements serving as the input are consistent with the virtual movement. The spatial compliance can be divided into positional compliance, directional compliance and nulling compliance.
+  </p>
+  <ul>
+    <li>
+      Position and/or directional compliance:
+      <p>
+        is satisfied if the position and/or the rotation of the input device, respectively the tracked part of the body corresponds to the virtual counterpart. If this is given, the user can rely on the proprioceptive feedback of the body. Otherwise cognitive overhead can be needed to map the movements.
+      </p>
+    </li>
+    <li>
+      Nulling compliance:
+      <p>
+        is given when the input device respectively the tracked part of the body returns to the initial position/orientation, the virtual counterpart also returns the initial position/orientation. This means that the user can always return to the starting position/orientation to reset the movements.
+      </p>
+    </li>
+  </ul>
+  <h5>
+    Input Device Requirements:
+  </h5>
+  <p>
+    Interaction techniques and input devices can be considered separately. However, it is important to identify the requirements of an interaction technique to choose the correct input device or to find suitable interaction techniques for a given input device. Tracked Body Parts state which body parts the input device needs to track, while buttons are the required buttons needed on the input device for that specific technique.
+  </p>
+  <h5>
+    Reference Frame:
+  </h5>
+  <p>
+    The reference frame of a interaction technique can either be exocentric or egocentric. With exocentric techniques the user can interact with the virtual world from a more global point of view. The more common egocentric reference frame enables the interaction with the virtual object from inside the environment.
+  </p>
+  <h5>
+    Action Space:
+  </h5>
+  <p>
+    This defines the reach of interaction techniques. It is divided into arm-length, scaled and infinite. Techniques with an arm-length reach can only be used in the immediate area around the user. Techniques with a scaled reach enable the user to interact with objects in greater distance but don't have an infinite reach. An infinite reach is mainly possible with techniques based on the pointing metaphor.
+  </p>
+  <h5>
+    Directness:
+  </h5>
+  <p>
+    Interaction techniques can either be direct or indirect. Here directness is a characteristic of a technique rather than a description of an input device. Direct techniques allow for the interaction with an object without the need for an intermediate object or an additional selection/manipulation tool.
+  </p>
+  <h5>
+    Disambiguation:
+  </h5>
+  <p>
+    In case of multiple objects falling into the selection volume a disambiguation mechanism is needed to decide which object should be selected. This can be done automatically or with the help of the user. There are two important concepts describing the disambiguation capabilities of a interaction technique: progressive refinement and the disambiguation mechanism. Progressive refinement can be described as the process of reducing the number of selectable objects until only the desired object is left. The manual disambiguation mechanism approach lets the user select the target object among a group of prior reduced objects. When Behavioural disambiguation is used, the actions of the user until the selection is triggered are considered. The heuristic approach calculates scores on the bases of the user's movements to find the intended object.
+  </p>
+  <h5>
+    Interaction Fidelity:
+  </h5>
+  <p>
+    Naturalism is an important subject when it comes to interaction techniques. A high fidelity can lead to significant increased performance in comparison to a medium fidelity. Surprisingly,a moderate level of fidelity is worse than a low level of fidelity. it is possible to estimate the degree of fidelity of an interaction technique by comparing it with an equivalent real-world interaction. To accomplish this, three concepts are used: biomechanical symmetry, control symmetry, and system appropriateness.
+  </p>
+  <ul>
+    <li>
+      Biomechanical symmetry:
+      <p>
+        describes the level of correspondence between an interaction and the action that would be used to accomplish a analogous real-world task
+      </p>
+    </li>
+    <li>
+      Control symmetry:
+      <p>
+        estimates how close the control provided by the interaction technique comes to the control in the real-world task.
+      </p>
+      <ul>
+        <li>
+          Dimensional symmetry:
+          <p>
+            estimates the degree of exactness with which control dimensions in the compared real world task are provided through the interaction technique
+          </p>
+        </li>
+        <li>
+          Transfer function symmetry:
+          <p>
+            describes whether the positional and orientational mapping is the same as in the compared task
+          </p>
+        </li>
+        <li>
+          Termination symmetry:
+          <p>
+            specifies whether the interaction is stopped in a similar way by the interaction technique than it is done in the real-world task
+          </p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,36 @@
+#docker network create  --driver=bridge --subnet=192.168.178.0/24 --gateway=192.168.178.254 s3dit
+version: '3.3'
+
+services:
+   db:
+     build: ./mysql/.
+     container_name: s3dit-mysql
+     stdin_open: true
+     tty: true
+     restart: always
+     expose:
+        - "3306"
+     networks:
+        s3dit:
+             ipv4_address: 192.168.178.30
+   api:
+     build: ./server/.
+     container_name: s3dit-api
+     restart: always
+     expose:
+        - "3000"
+     networks:
+         s3dit:
+          ipv4_address: 192.168.178.20
+   frontend:
+     build: ./client/.
+     container_name: s3dit-frontend
+     restart: always
+     expose:
+        - "80"
+     networks:
+         s3dit:
+          ipv4_address: 192.168.178.10
+networks:
+   s3dit:
+            external: true

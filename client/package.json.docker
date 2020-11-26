@@ -1,0 +1,44 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.10.2",
+    "react-fontawesome": "^1.6.1",
+    "react-redux": "^7.2.0",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.0.1",
+    "react-stepzilla": "^6.0.2",
+    "react-structured-query-search": "^1.0.0-alpha.5",
+    "rsuite": "^4.2.1"
+  },
+  "scripts": {
+    "start": "DANGEROUSLY_DISABLE_HOST_CHECK=true PORT=80 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "code:coverage": "react-scripts test --coverage",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://192.168.178.20:3000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-test-renderer": "^16.10.2"
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!-- HTML 5 Doctype -->
+<!-- html boilerplate from https://foundation.zurb.com/sites/docs/installation.html -->
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VR Recommender</title>
+    <link rel="stylesheet" href="foundation/css/foundation.css" />
+    <link rel="stylesheet" href="foundation/css/app.css" />
+</head>
+<body>
+
+<form action="index.html">
+    <div class="grid-x grid-margin-x">
+        <fieldset class="cell small-12">
+            <legend>Metaphor:</legend>
+            <input type="radio" name="metaphor" value="handBased" id="formHandBased" required><label for="formHandBased">hand-based(grasping)</label>
+            <input type="radio" name="metaphor" value="fingerBased" id="formFingerBased"><label for="formFingerBased">finger-based(grasping)</label>
+            <input type="radio" name="metaphor" value="vectorBased" id="formVectorBased"><label for="formVectorBased">vector-based(pointing)</label>
+            <input type="radio" name="metaphor" value="volumeBased" id="formVolumeBased"><label for="formVolumeBased">volume-based(pointing)</label>
+            <input type="radio" name="metaphor" value="hybrid" id="formHybrid"><label for="formHybrid">hybrid</label>
+        </fieldset>
+    </div>
+    <div class="grid-x align-center text-center">
+        <div class="small-12">
+            <h4>Distance</h4>
+        </div>
+        <div class="slider small-10" data-slider data-initial-start="50" data-end="200">
+            <span class="slider-handle"  data-slider-handle role="slider" tabindex="1"></span>
+            <span class="slider-fill" data-slider-fill></span>
+            <input type="hidden">
+        </div>
+        <div class="small-4 columns">near</div>
+        <div class="small-4 columns">medium</div>
+        <div class="small-4 columns">far</div>
+    </div>
+    <div>
+        <input type="submit" class="button" value="Filter">
+    </div>
+</form>
+
+<script src="foundation/js/vendor/jquery.js"></script>
+<script src="foundation/js/vendor/what-input.js"></script>
+<script src="foundation/js/vendor/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>

@@ -1,0 +1,2952 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Filter Snapshot testing filter snapshot 1`] = `
+<div>
+  <div
+    className="mt-3 container"
+  >
+    <form
+      className=""
+    >
+      <input
+        className="mr-sm-2 form-control"
+        name="search"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+        value=""
+      />
+      <div
+        className="mt-2 accordion"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-header"
+            onClick={[Function]}
+          >
+            Include
+             
+            <span
+              className="pull-right"
+            >
+              <b>
+                +
+              </b>
+            </span>
+          </div>
+          <div
+            aria-expanded={null}
+            className="collapse"
+          >
+            <div
+              className="card-body"
+            >
+              <div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formmetaphor"
+                    >
+                      Metaphor
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formmetaphor"
+                      multiple={false}
+                      name="metaphor"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "grasping/hand-based",
+                          }
+                        }
+                        value="grasping/hand-based"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "grasping/finger-based",
+                          }
+                        }
+                        value="grasping/finger-based"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "pointing/vector-based",
+                          }
+                        }
+                        value="pointing/vector-based"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "pointing/volume-based",
+                          }
+                        }
+                        value="pointing/volume-based"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "hybrid",
+                          }
+                        }
+                        value="hybrid"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formtask"
+                    >
+                      Task
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formtask"
+                      multiple={true}
+                      name="task"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "selection",
+                          }
+                        }
+                        value="selection"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "position",
+                          }
+                        }
+                        value="position"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "rotation",
+                          }
+                        }
+                        value="rotation"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "scale",
+                          }
+                        }
+                        value="scale"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formbimanual"
+                    >
+                      Bimanual
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formbimanual"
+                      multiple={false}
+                      name="bimanual"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "N/A",
+                          }
+                        }
+                        value="N/A"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "single-handed",
+                          }
+                        }
+                        value="single-handed"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "symmetric-synchronous",
+                          }
+                        }
+                        value="symmetric-synchronous"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "asymmetric-synchronous",
+                          }
+                        }
+                        value="asymmetric-synchronous"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "asymmetric-asynchronous",
+                          }
+                        }
+                        value="asymmetric-asynchronous"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formmin_degree_of_freedom"
+                    >
+                      Minimum
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formmin_degree_of_freedom"
+                      multiple={true}
+                      name="min_degree_of_freedom"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x",
+                          }
+                        }
+                        value="x"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y",
+                          }
+                        }
+                        value="y"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z",
+                          }
+                        }
+                        value="z"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;",
+                          }
+                        }
+                        value="&psi;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;",
+                          }
+                        }
+                        value="&phi;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;",
+                          }
+                        }
+                        value="&theta;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x<sub>n</sub>",
+                          }
+                        }
+                        value="x<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y<sub>n</sub>",
+                          }
+                        }
+                        value="y<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z<sub>n</sub>",
+                          }
+                        }
+                        value="z<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;<sub>n</sub>",
+                          }
+                        }
+                        value="&psi;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;<sub>n</sub>",
+                          }
+                        }
+                        value="&phi;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;<sub>n</sub>",
+                          }
+                        }
+                        value="&theta;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x<sub>e</sub>",
+                          }
+                        }
+                        value="x<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y<sub>e</sub>",
+                          }
+                        }
+                        value="y<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z<sub>e</sub>",
+                          }
+                        }
+                        value="z<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;<sub>e</sub>",
+                          }
+                        }
+                        value="&psi;<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;<sub>e</sub>",
+                          }
+                        }
+                        value="&phi;<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;<sub>e</sub>",
+                          }
+                        }
+                        value="&theta;<sub>e</sub>"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formmax_degree_of_freedom"
+                    >
+                      Maximum
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formmax_degree_of_freedom"
+                      multiple={true}
+                      name="max_degree_of_freedom"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x",
+                          }
+                        }
+                        value="x"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y",
+                          }
+                        }
+                        value="y"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z",
+                          }
+                        }
+                        value="z"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;",
+                          }
+                        }
+                        value="&psi;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;",
+                          }
+                        }
+                        value="&phi;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;",
+                          }
+                        }
+                        value="&theta;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x<sub>n</sub>",
+                          }
+                        }
+                        value="x<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y<sub>n</sub>",
+                          }
+                        }
+                        value="y<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z<sub>n</sub>",
+                          }
+                        }
+                        value="z<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;<sub>n</sub>",
+                          }
+                        }
+                        value="&psi;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;<sub>n</sub>",
+                          }
+                        }
+                        value="&phi;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;<sub>n</sub>",
+                          }
+                        }
+                        value="&theta;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x<sub>e</sub>",
+                          }
+                        }
+                        value="x<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y<sub>e</sub>",
+                          }
+                        }
+                        value="y<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z<sub>e</sub>",
+                          }
+                        }
+                        value="z<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;<sub>e</sub>",
+                          }
+                        }
+                        value="&psi;<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;<sub>e</sub>",
+                          }
+                        }
+                        value="&phi;<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;<sub>e</sub>",
+                          }
+                        }
+                        value="&theta;<sub>e</sub>"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formconstr"
+                    >
+                      Constraints
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formconstr"
+                      multiple={false}
+                      name="constr"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "none",
+                          }
+                        }
+                        value="none"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "snap-to-axis",
+                          }
+                        }
+                        value="snap-to-axis"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "snap-to-object",
+                          }
+                        }
+                        value="snap-to-object"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formcd_ratio_tool"
+                    >
+                      Tool
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formcd_ratio_tool"
+                      multiple={false}
+                      name="cd_ratio_tool"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "isomorph",
+                          }
+                        }
+                        value="isomorph"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "manual switching",
+                          }
+                        }
+                        value="manual switching"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "velocity-oriented",
+                          }
+                        }
+                        value="velocity-oriented"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "area-oriented",
+                          }
+                        }
+                        value="area-oriented"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "non-isomorph",
+                          }
+                        }
+                        value="non-isomorph"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formcd_ratio_target"
+                    >
+                      Target
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formcd_ratio_target"
+                      multiple={false}
+                      name="cd_ratio_target"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "isomorph",
+                          }
+                        }
+                        value="isomorph"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "manual switching",
+                          }
+                        }
+                        value="manual switching"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "velocity-oriented",
+                          }
+                        }
+                        value="velocity-oriented"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "area-oriented",
+                          }
+                        }
+                        value="area-oriented"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "non-isomorph",
+                          }
+                        }
+                        value="non-isomorph"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formspatial_compliance"
+                    >
+                      Spatial Compliance
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formspatial_compliance"
+                      multiple={true}
+                      name="spatial_compliance"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "positional",
+                          }
+                        }
+                        value="positional"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "directional",
+                          }
+                        }
+                        value="directional"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "nulling",
+                          }
+                        }
+                        value="nulling"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formid_tracked_body_parts"
+                    >
+                      Tracked Body Parts
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formid_tracked_body_parts"
+                      multiple={true}
+                      name="id_tracked_body_parts"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "hand",
+                          }
+                        }
+                        value="hand"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "hands",
+                          }
+                        }
+                        value="hands"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "fingers",
+                          }
+                        }
+                        value="fingers"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "eyes",
+                          }
+                        }
+                        value="eyes"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formbuttons"
+                    >
+                      Buttons
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formbuttons"
+                      multiple={false}
+                      name="buttons"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "0",
+                          }
+                        }
+                        value="0"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "1",
+                          }
+                        }
+                        value="1"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "1 + 1",
+                          }
+                        }
+                        value="1 + 1"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "(1)",
+                          }
+                        }
+                        value="(1)"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "4",
+                          }
+                        }
+                        value="4"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formreference_frame"
+                    >
+                      Reference Frame
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formreference_frame"
+                      multiple={false}
+                      name="reference_frame"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "egocentric",
+                          }
+                        }
+                        value="egocentric"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "exocentric",
+                          }
+                        }
+                        value="exocentric"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formaction_space"
+                    >
+                      Action Space
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formaction_space"
+                      multiple={false}
+                      name="action_space"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "infinity",
+                          }
+                        }
+                        value="infinity"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "arm length",
+                          }
+                        }
+                        value="arm length"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "scaled",
+                          }
+                        }
+                        value="scaled"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formdirect_indirect"
+                    >
+                      Direct / Indirect
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formdirect_indirect"
+                      multiple={true}
+                      name="direct_indirect"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "direct",
+                          }
+                        }
+                        value="direct"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "indirect",
+                          }
+                        }
+                        value="indirect"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formprogressive_refinement"
+                    >
+                      Progressive Refinement
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formprogressive_refinement"
+                      multiple={false}
+                      name="progressive_refinement"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "none",
+                          }
+                        }
+                        value="none"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "continuous",
+                          }
+                        }
+                        value="continuous"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "discrete/single step",
+                          }
+                        }
+                        value="discrete/single step"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "discrete/multiple steps",
+                          }
+                        }
+                        value="discrete/multiple steps"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formdisambiguation_mechanism"
+                    >
+                      Disambiguation Mechanism
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formdisambiguation_mechanism"
+                      multiple={false}
+                      name="disambiguation_mechanism"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "none",
+                          }
+                        }
+                        value="none"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "behavioral",
+                          }
+                        }
+                        value="behavioral"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "manual",
+                          }
+                        }
+                        value="manual"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "heuristic",
+                          }
+                        }
+                        value="heuristic"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formpre_min_overall_interaction_fidelity"
+                    >
+                      Min:
+                    </label>
+                    <input
+                      className="form-control"
+                      id="formpre_min_overall_interaction_fidelity"
+                      min="0"
+                      name="pre_min_overall_interaction_fidelity"
+                      onChange={[Function]}
+                      step="0.01"
+                      type="number"
+                    />
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formpre_max_overall_interaction_fidelity"
+                    >
+                      Max:
+                    </label>
+                    <input
+                      className="form-control"
+                      id="formpre_max_overall_interaction_fidelity"
+                      min="0"
+                      name="pre_max_overall_interaction_fidelity"
+                      onChange={[Function]}
+                      step="0.01"
+                      type="number"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-header"
+            onClick={[Function]}
+          >
+            Exclude
+             
+            <span
+              className="pull-right"
+            >
+              <b>
+                +
+              </b>
+            </span>
+          </div>
+          <div
+            aria-expanded={null}
+            className="collapse"
+          >
+            <div
+              className="card-body"
+            >
+              <div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formmetaphor"
+                    >
+                      Metaphor
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formmetaphor"
+                      multiple={false}
+                      name="metaphor"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "grasping/hand-based",
+                          }
+                        }
+                        value="grasping/hand-based"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "grasping/finger-based",
+                          }
+                        }
+                        value="grasping/finger-based"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "pointing/vector-based",
+                          }
+                        }
+                        value="pointing/vector-based"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "pointing/volume-based",
+                          }
+                        }
+                        value="pointing/volume-based"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "hybrid",
+                          }
+                        }
+                        value="hybrid"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formtask"
+                    >
+                      Task
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formtask"
+                      multiple={true}
+                      name="task"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "selection",
+                          }
+                        }
+                        value="selection"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "position",
+                          }
+                        }
+                        value="position"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "rotation",
+                          }
+                        }
+                        value="rotation"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "scale",
+                          }
+                        }
+                        value="scale"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formbimanual"
+                    >
+                      Bimanual
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formbimanual"
+                      multiple={false}
+                      name="bimanual"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "N/A",
+                          }
+                        }
+                        value="N/A"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "single-handed",
+                          }
+                        }
+                        value="single-handed"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "symmetric-synchronous",
+                          }
+                        }
+                        value="symmetric-synchronous"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "asymmetric-synchronous",
+                          }
+                        }
+                        value="asymmetric-synchronous"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "asymmetric-asynchronous",
+                          }
+                        }
+                        value="asymmetric-asynchronous"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formmin_degree_of_freedom"
+                    >
+                      Minimum
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formmin_degree_of_freedom"
+                      multiple={true}
+                      name="min_degree_of_freedom"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x",
+                          }
+                        }
+                        value="x"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y",
+                          }
+                        }
+                        value="y"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z",
+                          }
+                        }
+                        value="z"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;",
+                          }
+                        }
+                        value="&psi;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;",
+                          }
+                        }
+                        value="&phi;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;",
+                          }
+                        }
+                        value="&theta;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x<sub>n</sub>",
+                          }
+                        }
+                        value="x<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y<sub>n</sub>",
+                          }
+                        }
+                        value="y<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z<sub>n</sub>",
+                          }
+                        }
+                        value="z<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;<sub>n</sub>",
+                          }
+                        }
+                        value="&psi;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;<sub>n</sub>",
+                          }
+                        }
+                        value="&phi;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;<sub>n</sub>",
+                          }
+                        }
+                        value="&theta;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x<sub>e</sub>",
+                          }
+                        }
+                        value="x<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y<sub>e</sub>",
+                          }
+                        }
+                        value="y<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z<sub>e</sub>",
+                          }
+                        }
+                        value="z<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;<sub>e</sub>",
+                          }
+                        }
+                        value="&psi;<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;<sub>e</sub>",
+                          }
+                        }
+                        value="&phi;<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;<sub>e</sub>",
+                          }
+                        }
+                        value="&theta;<sub>e</sub>"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formmax_degree_of_freedom"
+                    >
+                      Maximum
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formmax_degree_of_freedom"
+                      multiple={true}
+                      name="max_degree_of_freedom"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x",
+                          }
+                        }
+                        value="x"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y",
+                          }
+                        }
+                        value="y"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z",
+                          }
+                        }
+                        value="z"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;",
+                          }
+                        }
+                        value="&psi;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;",
+                          }
+                        }
+                        value="&phi;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;",
+                          }
+                        }
+                        value="&theta;"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x<sub>n</sub>",
+                          }
+                        }
+                        value="x<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y<sub>n</sub>",
+                          }
+                        }
+                        value="y<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z<sub>n</sub>",
+                          }
+                        }
+                        value="z<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;<sub>n</sub>",
+                          }
+                        }
+                        value="&psi;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;<sub>n</sub>",
+                          }
+                        }
+                        value="&phi;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;<sub>n</sub>",
+                          }
+                        }
+                        value="&theta;<sub>n</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "x<sub>e</sub>",
+                          }
+                        }
+                        value="x<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "y<sub>e</sub>",
+                          }
+                        }
+                        value="y<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "z<sub>e</sub>",
+                          }
+                        }
+                        value="z<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&psi;<sub>e</sub>",
+                          }
+                        }
+                        value="&psi;<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&phi;<sub>e</sub>",
+                          }
+                        }
+                        value="&phi;<sub>e</sub>"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&theta;<sub>e</sub>",
+                          }
+                        }
+                        value="&theta;<sub>e</sub>"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formconstr"
+                    >
+                      Constraints
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formconstr"
+                      multiple={false}
+                      name="constr"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "none",
+                          }
+                        }
+                        value="none"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "snap-to-axis",
+                          }
+                        }
+                        value="snap-to-axis"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "snap-to-object",
+                          }
+                        }
+                        value="snap-to-object"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formcd_ratio_tool"
+                    >
+                      Tool
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formcd_ratio_tool"
+                      multiple={false}
+                      name="cd_ratio_tool"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "isomorph",
+                          }
+                        }
+                        value="isomorph"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "manual switching",
+                          }
+                        }
+                        value="manual switching"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "velocity-oriented",
+                          }
+                        }
+                        value="velocity-oriented"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "area-oriented",
+                          }
+                        }
+                        value="area-oriented"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "non-isomorph",
+                          }
+                        }
+                        value="non-isomorph"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formcd_ratio_target"
+                    >
+                      Target
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formcd_ratio_target"
+                      multiple={false}
+                      name="cd_ratio_target"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "isomorph",
+                          }
+                        }
+                        value="isomorph"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "manual switching",
+                          }
+                        }
+                        value="manual switching"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "velocity-oriented",
+                          }
+                        }
+                        value="velocity-oriented"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "area-oriented",
+                          }
+                        }
+                        value="area-oriented"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "non-isomorph",
+                          }
+                        }
+                        value="non-isomorph"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formspatial_compliance"
+                    >
+                      Spatial Compliance
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formspatial_compliance"
+                      multiple={true}
+                      name="spatial_compliance"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "positional",
+                          }
+                        }
+                        value="positional"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "directional",
+                          }
+                        }
+                        value="directional"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "nulling",
+                          }
+                        }
+                        value="nulling"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formid_tracked_body_parts"
+                    >
+                      Tracked Body Parts
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formid_tracked_body_parts"
+                      multiple={true}
+                      name="id_tracked_body_parts"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "hand",
+                          }
+                        }
+                        value="hand"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "hands",
+                          }
+                        }
+                        value="hands"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "fingers",
+                          }
+                        }
+                        value="fingers"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "eyes",
+                          }
+                        }
+                        value="eyes"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formbuttons"
+                    >
+                      Buttons
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formbuttons"
+                      multiple={false}
+                      name="buttons"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "0",
+                          }
+                        }
+                        value="0"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "1",
+                          }
+                        }
+                        value="1"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "1 + 1",
+                          }
+                        }
+                        value="1 + 1"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "(1)",
+                          }
+                        }
+                        value="(1)"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "4",
+                          }
+                        }
+                        value="4"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formreference_frame"
+                    >
+                      Reference Frame
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formreference_frame"
+                      multiple={false}
+                      name="reference_frame"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "egocentric",
+                          }
+                        }
+                        value="egocentric"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "exocentric",
+                          }
+                        }
+                        value="exocentric"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formaction_space"
+                    >
+                      Action Space
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formaction_space"
+                      multiple={false}
+                      name="action_space"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "infinity",
+                          }
+                        }
+                        value="infinity"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "arm length",
+                          }
+                        }
+                        value="arm length"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "scaled",
+                          }
+                        }
+                        value="scaled"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formdirect_indirect"
+                    >
+                      Direct / Indirect
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formdirect_indirect"
+                      multiple={true}
+                      name="direct_indirect"
+                      onChange={[Function]}
+                      value={Array []}
+                    >
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "direct",
+                          }
+                        }
+                        value="direct"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "indirect",
+                          }
+                        }
+                        value="indirect"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formprogressive_refinement"
+                    >
+                      Progressive Refinement
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formprogressive_refinement"
+                      multiple={false}
+                      name="progressive_refinement"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "none",
+                          }
+                        }
+                        value="none"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "continuous",
+                          }
+                        }
+                        value="continuous"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "discrete/single step",
+                          }
+                        }
+                        value="discrete/single step"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "discrete/multiple steps",
+                          }
+                        }
+                        value="discrete/multiple steps"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formdisambiguation_mechanism"
+                    >
+                      Disambiguation Mechanism
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formdisambiguation_mechanism"
+                      multiple={false}
+                      name="disambiguation_mechanism"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "none",
+                          }
+                        }
+                        value="none"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "behavioral",
+                          }
+                        }
+                        value="behavioral"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "manual",
+                          }
+                        }
+                        value="manual"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "heuristic",
+                          }
+                        }
+                        value="heuristic"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-header"
+            onClick={[Function]}
+          >
+            Task / Environment Parameters
+             
+            <span
+              className="pull-right"
+            >
+              <b>
+                +
+              </b>
+            </span>
+          </div>
+          <div
+            aria-expanded={null}
+            className="collapse"
+          >
+            <div
+              className="card-body"
+            >
+              <div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formdistance"
+                    >
+                      Distance
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formdistance"
+                      multiple={false}
+                      name="distance"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "near",
+                          }
+                        }
+                        value="near"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "medium",
+                          }
+                        }
+                        value="medium"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "far",
+                          }
+                        }
+                        value="far"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formobject_size"
+                    >
+                      Object Size
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formobject_size"
+                      multiple={false}
+                      name="object_size"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "small",
+                          }
+                        }
+                        value="small"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "normal",
+                          }
+                        }
+                        value="normal"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "large",
+                          }
+                        }
+                        value="large"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formgoal_coverage"
+                    >
+                      Goal Coverage
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formgoal_coverage"
+                      multiple={false}
+                      name="goal_coverage"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "none",
+                          }
+                        }
+                        value="none"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "partial",
+                          }
+                        }
+                        value="partial"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "complete",
+                          }
+                        }
+                        value="complete"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formagility"
+                    >
+                      Agility
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formagility"
+                      multiple={false}
+                      name="agility"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "none",
+                          }
+                        }
+                        value="none"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "slow",
+                          }
+                        }
+                        value="slow"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "fast",
+                          }
+                        }
+                        value="fast"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formobject_density"
+                    >
+                      Object Density
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formobject_density"
+                      multiple={false}
+                      name="object_density"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "none",
+                          }
+                        }
+                        value="none"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "near",
+                          }
+                        }
+                        value="near"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "very close to eachother",
+                          }
+                        }
+                        value="very close to eachother"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formdistance_to_start_and_goal"
+                    >
+                      Distance to Start and Goal
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formdistance_to_start_and_goal"
+                      multiple={false}
+                      name="distance_to_start_and_goal"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "near",
+                          }
+                        }
+                        value="near"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "medium",
+                          }
+                        }
+                        value="medium"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "far",
+                          }
+                        }
+                        value="far"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formdegree_of_change_of_position"
+                    >
+                      Degree of Change of Position
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formdegree_of_change_of_position"
+                      multiple={false}
+                      name="degree_of_change_of_position"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "small",
+                          }
+                        }
+                        value="small"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "medium",
+                          }
+                        }
+                        value="medium"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "large",
+                          }
+                        }
+                        value="large"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formdistance_to_object"
+                    >
+                      Distance to Object
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formdistance_to_object"
+                      multiple={false}
+                      name="distance_to_object"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "near",
+                          }
+                        }
+                        value="near"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "medium",
+                          }
+                        }
+                        value="medium"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "far",
+                          }
+                        }
+                        value="far"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formdegree_of_change_of_rotation"
+                    >
+                      Degree of Change of Rotation
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formdegree_of_change_of_rotation"
+                      multiple={false}
+                      name="degree_of_change_of_rotation"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "small",
+                          }
+                        }
+                        value="small"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "medium",
+                          }
+                        }
+                        value="medium"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "large",
+                          }
+                        }
+                        value="large"
+                      />
+                    </select>
+                  </div>
+                </div>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formdistance_to_object_scale"
+                    >
+                      Distance to Object
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formdistance_to_object_scale"
+                      multiple={false}
+                      name="distance_to_object_scale"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "near",
+                          }
+                        }
+                        value="near"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "medium",
+                          }
+                        }
+                        value="medium"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "far",
+                          }
+                        }
+                        value="far"
+                      />
+                    </select>
+                  </div>
+                  <div
+                    className="form-group col"
+                  >
+                    <label
+                      className="form-label"
+                      htmlFor="formdegree_of_change_of_scale"
+                    >
+                      Degree of Change of Scale
+                    </label>
+                    <select
+                      className="form-control"
+                      id="formdegree_of_change_of_scale"
+                      multiple={false}
+                      name="degree_of_change_of_scale"
+                      onChange={[Function]}
+                    >
+                      <option
+                        value=""
+                      >
+                        -------
+                      </option>
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "small",
+                          }
+                        }
+                        value="small"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "medium",
+                          }
+                        }
+                        value="medium"
+                      />
+                      <option
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "large",
+                          }
+                        }
+                        value="large"
+                      />
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="mt-2 btn btn-primary"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Reset Fields
+      </button>
+    </form>
+  </div>
+  <div>
+    <p
+      className="text-right pr-5 mt-3"
+    >
+      <button
+        className="pr-4 btn btn-link"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        <span
+          aria-hidden={true}
+          className="fa fa-th fa-2x"
+        />
+      </button>
+      <button
+        className=" btn btn-link secondary-color"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        <span
+          aria-hidden={true}
+          className="fa fa-th-list fa-2x"
+        />
+      </button>
+    </p>
+  </div>
+  <div
+    className="container"
+  >
+    <h3
+      className="text-center"
+    >
+      No results were found based on your current search parameters
+    </h3>
+  </div>
+</div>
+`;

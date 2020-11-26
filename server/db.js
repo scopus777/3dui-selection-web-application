@@ -1,0 +1,44 @@
+let mysql = require('mysql');
+
+//Altered database.js file based on: https://www.terlici.com/2015/08/13/mysql-node-express.html
+
+// Have a references to the required database info
+// This should be read from environment variables on the production environment
+const PRODUCTION_DB_NAME = 'vr_test_database';
+const TEST_DB_NAME = 'vr_test_database';
+const HOST = 'localhost';
+const USER = 'root';
+const PASSWORD = 'playfriends';
+
+exports.MODE_TEST = 'mode_test';
+exports.MODE_PRODUCTION = 'mode_production';
+
+// Initialize State
+const state = {
+    pool: null,
+    mode: null,
+};
+
+// Setup a Database Connection, this connection needs to be closed before being opened again.
+exports.connect = function (mode, done) {
+    state.pool = mysql.createPool({
+        host: HOST,
+        user: USER,
+        password: PASSWORD,
+        database: mode === exports.MODE_PRODUCTION ? PRODUCTION_DB_NAME : TEST_DB_NAME
+    });
+
+    state.mode = mode;
+    done() //Callback that connection has been made
+};
+
+//Returns an instance of the Database Pool which is an active connection to the database.
+exports.get = function () {
+    return state.pool
+};
+
+//Setup a Test Database
+exports.initializeTestDatabase = function (done) {
+    mode = exports.MODE_TEST;
+    exports.connect(mode, done)
+};

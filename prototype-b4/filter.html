@@ -1,0 +1,78 @@
+<!DOCTYPE html> <!-- HTML 5 Doctype -->
+<!-- html boilerplate from https://foundation.zurb.com/sites/docs/installation.html -->
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VR Recommender</title>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../node_modules/rangeslider.js/dist/rangeslider.css">
+    <script src="../node_modules/rangeslider.js/dist/rangeslider.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../node_modules/bootstrap4-toggle/css/bootstrap4-toggle.css" rel="stylesheet">
+    <script src="../node_modules/bootstrap4-toggle/js/bootstrap4-toggle.js"></script>
+
+    <script>
+        $(function() {
+
+            $('input[type=range]').rangeslider({
+                polyfill: false
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <form action="index.html">
+        <div class="row">
+            <fieldset>
+                <legend>Metaphor:</legend>
+                <div class="form-check-inline">
+                    <input class="form-check-input" type="radio" name="metaphor" value="handBased" id="formHandBased" required>
+                    <label class="form-check-label" for="formHandBased">hand-based(grasping)</label>
+                </div>
+                <div class="form-check-inline">
+                    <input class="form-check-input" type="radio" name="metaphor" value="fingerBased" id="formFingerBased">
+                    <label class="form-check-label" for="formFingerBased">finger-based(grasping)</label>
+                </div>
+                <div class="form-check-inline">
+                    <input class="form-check-input" type="radio" name="metaphor" value="vectorBased" id="formVectorBased">
+                    <label class="form-check-label" for="formVectorBased">vector-based(pointing)</label>
+                </div>
+                <div class="form-check-inline">
+                    <input class="form-check-input" type="radio" name="metaphor" value="volumeBased" id="formVolumeBased">
+                    <label class="form-check-label" for="formVolumeBased">volume-based(pointing)</label>
+                </div>
+                <div class="form-check-inline">
+                    <input class="form-check-input" type="radio" name="metaphor" value="hybrid" id="formHybrid">
+                    <label class="form-check-label" for="formHybrid">hybrid</label>
+                </div>
+            </fieldset>
+        </div>
+        <div class="row text-center">
+            <div class="col-12">
+                <h4>Distance</h4>
+            </div>
+            <input type="range">
+            <div class="col-4 p-2">near</div>
+            <div class="col-4 p-2">medium</div>
+            <div class="col-4 p-2">far</div>
+        </div>
+        <div class="row justify-content-center">
+            <input type="submit" class="btn btn-primary" value="Filter">
+        </div>
+    </form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html> <!-- HTML 5 Doctype -->
+<!-- html boilerplate from https://foundation.zurb.com/sites/docs/installation.html -->
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VR Recommender</title>
+    <link rel="stylesheet" href="foundation/css/foundation.css" />
+    <link rel="stylesheet" href="foundation/css/app.css" />
+</head>
+<body>
+<!-- CARD GRID -->
+<table class="hover text-center responsive-card-table unstriped table-scroll">
+    <thead>
+        <tr>
+            <th colspan="17"></th>
+            <th colspan="4" class="text-center">Interaction Fidelity</th>
+        </tr>
+        <tr>
+            <th colspan="4"></th>
+            <th colspan="2" class="text-center">Degree of Freedom</th>
+            <th colspan="1"></th>
+            <th colspan="2" class="text-center">CD-Ratio</th>
+            <th colspan="1"></th>
+            <th colspan="2" class="text-center">Input Device</th>
+            <th colspan="3"></th>
+            <th colspan="2" class="text-center">Disambiguation</th>
+            <th colspan="1"></th>
+            <th colspan="3" class="text-center">Control Symmetry</th>
+        </tr>
+        <tr>
+            <th class="text-center">Technique</th>
+            <th class="text-center">Metaphor</th>
+            <th class="text-center">Task</th>
+            <th class="text-center">Bimanual</th>
+            <th class="text-center">Minimum</th>
+            <th class="text-center">Maximum</th>
+            <th class="text-center">Constraints</th>
+            <th class="text-center">Tool</th>
+            <th class="text-center">Target</th>
+            <th class="text-center">Spatial Compliance</th>
+            <th class="text-center">Tracking Body Parts</th>
+            <th class="text-center">Buttons</th>
+            <th class="text-center">Reference Frame</th>
+            <th class="text-center">Action Space</th>
+            <th class="text-center">Direct/Indirect</th>
+            <th class="text-center">Progressive Refinement</th>
+            <th class="text-center">Disambiguation Mechanism</th>
+            <th class="text-center">Biomechanical Symmetry</th>
+            <th class="text-center">Dimension Symmetry</th>
+            <th class="text-center">Transfer Function Symmetry</th>
+            <th class="text-center">Termination Symmetry</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-label="Technique">Virtual Hand</td>
+            <td data-label="Metaphor">grasping/ hand-based</td>
+            <td data-label="Task">selection, position, rotation</td>
+            <td data-label="Bimanual">single-handed</td>
+            <td data-label="Min. Degree of Freedom">x, y, z, ψ, φ, θ</td>
+            <td data-label="Max. Degree of Freedom">x, y, z, ψ, φ, θ</td>
+            <td data-label="Constraints">none</td>
+            <td data-label="Tool CD-Ratio">isomorph</td>
+            <td data-label="Target CD-Ratio">isomorph</td>
+            <td data-label="Spatial Compliance">positional, directional, nulling</td>
+            <td data-label="Tracked Body Parts">hand</td>
+            <td data-label="Buttons">1</td>
+            <td data-label="Reference-Frame">egocentric</td>
+            <td data-label="Action Space">arm length</td>
+            <td data-label="Direct/Indirect">direct</td>
+            <td data-label="Progressive Refinement">none</td>
+            <td data-label="Disambiguation Mechanism">none</td>
+            <td data-label="Biomechanical Symmetry">arm and hand movements</td>
+            <td data-label="Dimensional Symmetry">x, y, z, ψ, φ, θ</td>
+            <td data-label="Transfer Function Symmetry">1-to-1 positional 1-to-1 orientational</td>
+            <td data-label="Termination Symmetry">release button</td>
+        </tr>
+    </tbody>
+</table>
+<!-- END CARD GRID -->
+
+<script src="foundation/js/vendor/jquery.js"></script>
+<script src="foundation/js/vendor/what-input.js"></script>
+<script src="foundation/js/vendor/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>

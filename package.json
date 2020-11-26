@@ -1,0 +1,30 @@
+{
+  "name": "vr-recommender",
+  "version": "1.0.0",
+  "description": "A VR-Recommender",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap4-toggle": "^3.4.0",
+    "rangeslider.js": "^2.3.2",
+    "react-structured-query-search": "^1.0.0-alpha.5",
+    "switch-button-react-native": "^1.0.3",
+    "react-stepzilla": "^6.0.2",
+    "rsuite": "^4.2.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunthergun/vr-recommender.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunthergun/vr-recommender/issues"
+  },
+  "homepage": "https://github.com/gunthergun/vr-recommender#readme"
+}

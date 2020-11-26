@@ -1,0 +1,302 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*Carousel changes to be able to see it on a light background*/
+.carousel .carousel-indicators li {
+    background-color: #fff;
+    background-color: rgba(70,70,70,.25);
+}
+
+.carousel .carousel-indicators .active {
+    background-color: #444;
+}
+
+/*Change the indicators of the carousel so that they have a black shadow. This makes it so you can see the indicators on a white background*/
+.fa-angle-left {
+    text-shadow: 0 0 1px black;
+}
+
+.fa-angle-right {
+    text-shadow: 0 0 1px black;
+}
+
+/*Card Image Style*/
+.card-group .card-image-cover {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+/* Extra Small devices (landscape phones, 300px and up) */
+@media (min-width: 300px) {
+    .card-group .card-image-cover {
+        height: 80vw;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .card-group .card-image-cover {
+        height: 30vw;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .card-group .card-image-cover {
+        height: 23vw;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+    .card-group .card-image-cover {
+        height: 23vw;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .card-group .card-image-cover {
+        height: 15vw;
+    }
+}
+
+/*OwnTooltip allow \n*/
+.tooltip-inner {
+    white-space: pre-line;
+}
+
+/*This adds the possibility to have a dotted line, based on: https://stackoverflow.com/questions/15252597/how-to-add-a-dotted-underline-beneath-html-text*/
+u.dotted{
+    border-bottom: 2px dotted #999;
+    text-decoration: none;
+}
+
+/*Button styled as link secondary*/
+button.secondary-color {
+    color: #5e5e5e;
+}
+
+.left {
+    width: auto;
+    display:table-cell;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.right {
+    padding-top: 20px;
+    width: 100px;
+    display:table-cell;
+    vertical-align: top;
+}
+
+.filter-container {
+    width: 100%;
+    display:table;
+}
+
+.switch-button {
+    float:top;
+    padding: 0px;
+    padding-top: 5px;
+}
+
+.filter-tokenizer-list-item {
+    background-image: none !important;
+    background-color: white !important;
+}
+
+.typeahead-option:hover{
+    background-color: #f8f9fa !important;
+    color: black !important;
+}
+
+.filter-tokenizer-list-container {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    border-radius: 3px !important;
+    border: 1px solid #e5e5e5 !important;
+}
+
+.filter-tokenizer ul.typeahead-selector li.header {
+    display: none;
+}
+
+.typeahead-token {
+    background-image: none !important;;
+    background-color: #f8f9fa !important;
+}
+
+
+.sort {
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Extra Small devices (landscape phones, 300px and up) */
+@media (min-width: 300px) {
+    .sort {
+        width: 280px;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .sort {
+        width: 550px;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .sort {
+        width: 750px;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+    .sort {
+        width: 970px;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .sort {
+        width: 500px;
+    }
+}
+
+.help-text {
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Extra Small devices (landscape phones, 300px and up) */
+@media (min-width: 300px) {
+    .help-text {
+        width: 280px;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .help-text {
+        width: 550px;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .help-text {
+        width: 750px;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+    .help-text {
+        width: 970px;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .help-text {
+        width: 800px;
+    }
+}
+
+.progtrckr {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.form-horizontal{
+    width: 100%;
+}
+
+.firstColumn {
+    width: 50%;
+}
+
+.grey {
+    background-color: #F5F5F5;
+}
+
+.white {
+    background-color: white;
+    vertical-align: middle;
+}
+
+html, body, #app, #app>div, #root  {
+    height: 100%;
+}
+
+td {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.sort-cards{
+    margin-top: 25px;
+}
+
+.details-technique-name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    padding-top: 20px !important;
+}
+.filter-table table {
+    display: block;
+    white-space: nowrap;
+}
+
+td { white-space:pre}
+
+.description-td{
+    white-space:pre-wrap
+}
+
+.study-results-tabs {
+    padding-top: 10px;
+}
+
+.back-button{
+    padding-top: 20px;
+}
+
+ol.progtrckr li:before {
+    bottom: -4rem !important;
+}
+
+.center {
+    display: block;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.sort-main {
+    margin-top: 20px;
+}

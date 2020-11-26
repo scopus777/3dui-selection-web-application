@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Card Component Snapshots testing Card snapshot 1`] = `
+<div
+  className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2"
+>
+  <div
+    className="shadow-sm bg-light text-center h-100 card"
+  >
+    
+    <div
+      className="d-flex flex-column card-body"
+    >
+      <div
+        className="card-title h5"
+      >
+        <b>
+          Simple Virtual Hand
+        </b>
+      </div>
+      <p
+        className="card-text"
+      >
+        Creates a virtual representation of the real hand to allow a direct and natural interaction
+      </p>
+      <div
+        className="mt-auto"
+      >
+        <a
+          className="btn btn-primary"
+          href="/detail/1"
+          onClick={[Function]}
+        >
+          Details
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Card Component Snapshots testing CardImage snapshot 1`] = `
+<img
+  alt="Simple Virtual Hand example image."
+  className="card-img-top card-image-cover"
+/>
+`;
+
+exports[`Test Card Component Snapshots testing CardImageCarousel snapshot 1`] = `""`;
+
+exports[`Test Card Component Snapshots testing Cards snapshot 1`] = `
+<div
+  className="card-group"
+>
+  <div
+    className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2"
+  >
+    <div
+      className="shadow-sm bg-light text-center h-100 card"
+    >
+      
+      <div
+        className="d-flex flex-column card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          <b>
+            Simple Virtual Hand
+          </b>
+        </div>
+        <p
+          className="card-text"
+        >
+          Creates a virtual representation of the real hand to allow a direct and natural interaction
+        </p>
+        <div
+          className="mt-auto"
+        >
+          <a
+            className="btn btn-primary"
+            href="/detail/1"
+            onClick={[Function]}
+          >
+            Details
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2"
+  >
+    <div
+      className="shadow-sm bg-light text-center h-100 card"
+    >
+      
+      <div
+        className="d-flex flex-column card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          <b>
+            Simple Virtual Hand
+          </b>
+        </div>
+        <p
+          className="card-text"
+        >
+          Creates a virtual representation of the real hand to allow a direct and natural interaction
+        </p>
+        <div
+          className="mt-auto"
+        >
+          <a
+            className="btn btn-primary"
+            href="/detail/1"
+            onClick={[Function]}
+          >
+            Details
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2"
+  >
+    <div
+      className="shadow-sm bg-light text-center h-100 card"
+    >
+      
+      <div
+        className="d-flex flex-column card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          <b>
+            Simple Virtual Hand
+          </b>
+        </div>
+        <p
+          className="card-text"
+        >
+          Creates a virtual representation of the real hand to allow a direct and natural interaction
+        </p>
+        <div
+          className="mt-auto"
+        >
+          <a
+            className="btn btn-primary"
+            href="/detail/1"
+            onClick={[Function]}
+          >
+            Details
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
