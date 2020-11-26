@@ -154,7 +154,7 @@ class Help extends Component {
             view =
                 <div>
                     <h2>General</h2>
-                    <p>The rankings of the techniques on the page “Sort” use the data of a user study where a wide range of interaction techniques was evaluated. Overall twelve interaction techniques were compared in the study. We selected the techniques so that most of the dimension values of the taxonomy are covered. Not all techniques are capable of both selection and manipulation. Therefore, we tested eight techniques in the manipulation sub-study and ten in the selection sub-study. The twelve tested interaction techniques were Bimanual Fishing Reel, Expand, Flashlight, Go-Go + PRISM, Head Based Selection, IntenSelect, Scaled HOMER, Scaled HOMER + Scale, Simple Virtual Hand, Spindle, Scaled Scrolling World in Miniature + Scale, and Crank Handle (Controller). The Hardware Setup consisted of an HTC Vive Pro with the corresponding controller and an Alienware 17 R4 (Intel i7-7700HQ, NVIDIA GTX 1070, 16 GB Ram). Unity was used to implement the test environment.</p>
+                    <p>The rankings of the techniques on the page “Sort” use the data of a user study where a wide range of interaction techniques was evaluated. Overall twelve interaction techniques were compared in the study. We selected the techniques so that most of the dimension values of the taxonomy are covered. Not all techniques are capable of both selection and manipulation. Therefore, we tested eight techniques in the manipulation sub-study and ten in the selection sub-study. The twelve tested interaction techniques were Bimanual Fishing Reel, Expand, Flashlight, Go-Go + PRISM, Head Based Selection, IntenSelect, Scaled HOMER, Scaled HOMER + Scale, Simple Virtual Hand, Spindle, Scaled Scrolling World in Miniature + Scale, and Crank Handle (Controller). The Hardware Setup consisted of an HTC Vive Pro with the corresponding controller and an Alienware 17 R4 (Intel i7-7700HQ, NVIDIA GTX 1070, 16 GB Ram). Unity was used to implement the test environment. You can find the source code of the used application on <a href="https://github.com/scopus777/vr-testbed">GitHub</a>. The resulting data set can be found on <a href="https://doi.org/10.5281/zenodo.4171773">Zenodo</a>.</p>
                 </div>;
         else if (this.state.currentPage === "User_Study_Selection")
             view =
@@ -208,9 +208,12 @@ class Help extends Component {
                     <p>Speed: How quickly could you work with interaction technology?</p>
                     <p>Motion Sickness: How much did you feel unwell (nausea, dizziness or headaches) when using the interaction technique?</p>
                 </div>;
-        else if (this.state.currentPage === "Literature")
+        else if (this.state.currentPage === "Misc")
             view =
                 <div>
+                    <h2>Source Code</h2>
+                    <p>You can find the source code of this web application on <a href="https://github.com/scopus777/3dui-selection-web-application">GitHub</a></p>
+
                     <h2>Literature</h2>
                     <p>In the following you can find literature about S3DIT and the used taxonomy:</p>
                     <p>
@@ -253,8 +256,8 @@ class Help extends Component {
                                     <Dropdown.Item eventKey="3-3" onClick={() => this.onClick("User_Study_Manipulation", "3", "3-3")}>Manipulation Sub-Study</Dropdown.Item>
                                     <Dropdown.Item eventKey="3-4" onClick={() => this.onClick("User_Study_Questionnaires", "3", "3-4")}>Questionnaires</Dropdown.Item>
                                 </Dropdown>
-                                <Nav.Item eventKey="4" onClick={() => this.onClick("Literature", "4", "4")}>
-                                    Literature
+                                <Nav.Item eventKey="4" onClick={() => this.onClick("Misc", "4", "4")}>
+                                    Misc
                                 </Nav.Item>
                             </Nav>
                         </Sidenav.Body>
